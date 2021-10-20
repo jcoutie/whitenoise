@@ -6,7 +6,7 @@ PLIST=$(pgrep omxplayer)
 
 if [ -z "$PLIST" ]
 then
-	./test.sh
+	/home/pi/whitenoise/test.sh
 	echo 1
 else
 	kill $PLIST
